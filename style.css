@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+.vig{
+    width: 60%;
+    height: 0%;
+    background-image: url("../p/images/vignan.PNG");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position:center;
+    border: 0px;
+    
+    
+    
+}
+body
+{   background-image: url("../p/images/bg2.png");
+	margin:0px;
+
+	/* Full height */
+	height: 100%;
+	width: 100%;
+  
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.head
+{   
+	font-family:"Trebuchet MS";
+	font-size:40px;
+	color:rgb(20, 20, 20);
+	margin-left:50px;
+
+}
+
+.hr
+{
+	width:80%;
+	height:5px;
+	border-radius:100px;
+	background-color:rgb(3, 113, 141);
+	top: 10px;
+}
+
+.s
+{   background: transparent;
+	position: absolute;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+	font-size: 50px;
+}
+.labels
+{
+	font-family:"Segoe UI";
+	color:rgb(8, 8, 8);
+	font-size:16px;
+	font-style:italic;
+}
+
+.fields
+{
+	font-family:"Segoe UI";
+	font-size:14px;
+	padding:2px 5px;
+	color:rgb(8, 8, 8);
+	background-color:transparent;
+	border:1px solid #0f0f0f;
+	border-radius:5px;
+}
+.design
+{
+	background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+	border:1px solid #111010;
+	border-radius:5px;
+	padding:90px 50px;
+
+	
+}
+a.link:link{text-decoration:none;font-family:"Trebuchet MS";font-size:30px;color:#1ad41a;}
+a.link:active{text-decoration:none;font-family:"Trebuchet MS";font-size:30px;color:#1ad41a;}
+a.link:visited{text-decoration:none;font-family:"Trebuchet MS";font-size:30px;color:#1ad41a;}
+a.link:hover{text-decoration:none;font-family:"Trebuchet MS";font-size:31px;color:#1ad41a;}
+
+.msg
+{
+	font-family:"Segoe UI";
+	font-size:14px;
+	color:rgb(15, 15, 15);
+}
+
+a.cmd:link{text-decoration:none;font-family:"Trebuchet MS";font-size:15px;color:rgb(8, 8, 8);padding:5px 6px;background-color:transparent;border:1px solid rgb(180, 243, 7);}
+a.cmd:active{text-decoration:none;font-family:"Trebuchet MS";font-size:15px;color:rgb(8, 8, 8);padding:5px 6px;background-color:transparent;border:1px solid rgb(6, 231, 25);}
+a.cmd:visited{text-decoration:none;font-family:"Trebuchet MS";font-size:15px;color:rgb(8, 8, 8);padding:5px 6px;background-color:transparent;border:1px solid rgb(25, 231, 53);}
+a.cmd:hover{text-decoration:none;font-family:"Trebuchet MS";font-size:15px;color:rgb(8, 8, 8);;padding:5px 6px;background-color:transparent;border:1px solid rgb(14, 238, 238);box-shadow:0px 0px 10px #066;}
